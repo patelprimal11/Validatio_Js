@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form id="form1">
+        <h1>Register Form</h1>
+
+        <div>
+            
+      <label for="username"><img src="credit-card.png" alt=""></label> &nbsp;&nbsp;
+        <input type="text" placeholder="Enter your Name" class="in" name="username" id="username"><br>
+<!-- <input type="text" style="margin-left: 100px; display: none" id="usererror"> -->
+ <p id="usererror" style="margin-left: 100px; display: none" >hello</p>
+<br><br>
+
+        <label for="mobile"><img src="mobile.png" alt=""></label> &nbsp;&nbsp;
+        <input type="tel" placeholder="Enter your Mobile No." class="in" name="mobile" id="mobile">
+        <!-- <input type="text" style="margin-left: 100px; display: none;" class="mobileerror"> -->
+        <br><br>
+
+        <label for="email"><img src="mail.png" alt=""></label> &nbsp;&nbsp;
+        <input type="email" placeholder="Enter Your Gmail" class="in" name="email" id="email">
+        <!-- <input type="text" style="margin-left: 100px; display: none;" class="emailerror"> -->
+        <br><br>
+
+        <label for="password"><img src="key.png" alt=""></label> &nbsp;&nbsp;
+        <input type="password" class="in" name="password" placeholder="Enter password" id="password">
+<!-- <input type="text" style="margin-left: 100px; display: none;" class="passworderror"> -->
+<br><br>
+
+        <label for="conformpassword"><img src="secure-password.png" alt=""></label> &nbsp;&nbsp;
+        <input type="password" class="in" placeholder="Repeat password" name="conformpassword" id="conformpassword">
+        <!-- <input type="text" style="margin-left: 100px; display: none;" class="conformpassworderror"><br> -->
+        <br><br>
+        <input type="submit" id="submit" style="background-color: rgb(58, 232, 58); margin-left: 80px;
+        width: 90px;
+        height: 30px;
+        border-radius: 10px;">
+    </div>
+ 
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>

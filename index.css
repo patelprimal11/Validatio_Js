@@ -1,0 +1,45 @@
+body{
+    background-image: url("regi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div{
+    margin-left: 130px;
+    margin-top: 90px;
+}
+#form1{
+    background-color: rgb(255, 255, 255);
+    /* background-color: transparent; */
+    border: 3px;
+    width: 500px;
+    border-style: 3px solid black;
+    height: 500px;
+    margin-top: 280px;
+    /* margin-left: 220px; */
+    /* opacity: 0.9; */
+    border-radius: 20px;
+    position: absolute;
+    left: 140px;
+    bottom: 160px;
+    
+}
+#usererror{
+    margin-left: 100px; 
+    /* display: none */
+}
+center{
+    padding-top: 90px;
+}
+h1{background-color: rgb(255, 255, 255,o.1);
+    /* opacity: 1; */
+text-align: center;
+}
+.in{
+    height: 20px;
+    opacity: 0.5;
+    width: 200px;
+    border-radius: 18px;
+    box-shadow: 2px 2px black;
+
+
+}
