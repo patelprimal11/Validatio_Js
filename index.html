@@ -1,49 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validation Form</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <img id="img1" src="pp.jpg" height="400px"  width="150px">
+    <div class="div1">
     <form id="form1">
         <h1>Register Form</h1>
 
         <div>
-            
-      <label for="username"><img src="credit-card.png" alt=""></label> &nbsp;&nbsp;
-        <input type="text" placeholder="Enter your Name" class="in" name="username" id="username"><br>
-<!-- <input type="text" style="margin-left: 100px; display: none" id="usererror"> -->
- <p id="usererror" style="margin-left: 100px; display: none" >hello</p>
-<br><br>
+      <label for="username"  class="icon"><img  src="credit-card.png" alt=""></label> &nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp; <input type="text" autocomplete="off" placeholder="Enter Name                       " class="in" name="username" id="username">
 
-        <label for="mobile"><img src="mobile.png" alt=""></label> &nbsp;&nbsp;
-        <input type="tel" placeholder="Enter your Mobile No." class="in" name="mobile" id="mobile">
-        <!-- <input type="text" style="margin-left: 100px; display: none;" class="mobileerror"> -->
+     <small class="error" id="usererror"></small><br><br>
+
+
+
+<div>
+        <label for="mobile"  class="icon"><img src="mobile.png" alt=""></label> &nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp; <input type="tel" autocomplete="off" placeholder="Enter Mobile No.                " class="in" name="mobile" id="mobile">
+        <small id="mobileerror"></small>
+    </div>
         <br><br>
-
-        <label for="email"><img src="mail.png" alt=""></label> &nbsp;&nbsp;
-        <input type="email" placeholder="Enter Your Gmail" class="in" name="email" id="email">
-        <!-- <input type="text" style="margin-left: 100px; display: none;" class="emailerror"> -->
+<div>
+        <label for="email"  class="icon"><img src="mail.png" alt=""></label> &nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;  <input type="email" autocomplete="off" placeholder="Enter Gmail                       " class="in" name="email" id="email">
+        <small class="error" id="mailerror"></small>
+    </div>
         <br><br>
-
-        <label for="password"><img src="key.png" alt=""></label> &nbsp;&nbsp;
-        <input type="password" class="in" name="password" placeholder="Enter password" id="password">
-<!-- <input type="text" style="margin-left: 100px; display: none;" class="passworderror"> -->
-<br><br>
-
-        <label for="conformpassword"><img src="secure-password.png" alt=""></label> &nbsp;&nbsp;
-        <input type="password" class="in" placeholder="Repeat password" name="conformpassword" id="conformpassword">
-        <!-- <input type="text" style="margin-left: 100px; display: none;" class="conformpassworderror"><br> -->
+        <div>
+        <label for="password"  class="icon"><img src="key.png" alt=""></label> &nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;  <input type="password" autocomplete="off" class="in" name="password" placeholder="Enter Password                 " id="password">
+        <small class="error" id="passworderror"></small>
+    </div>
         <br><br>
-        <input type="submit" id="submit" style="background-color: rgb(58, 232, 58); margin-left: 80px;
+        <div>
+        <label for="conformpassword"  class="icon"><img src="secure-password.png" alt=""></label> &nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;  <input type="password     " autocomplete="off" class="in" placeholder="Repeat Password              " name="conformpassword" id="conformpassword">
+        <small class="error" id="conformpassworderror"></small>
+    </div>
+        <br><br> 
+
+
+        <input type="submit"  id="submit" style="background-color: rgb(58, 232, 58); margin-left: 80px;
         width: 90px;
         height: 30px;
         border-radius: 10px;">
     </div>
  
     </form>
+</div>
     <script src="index.js"></script>
+    console.log(user)
 </body>
 </html>

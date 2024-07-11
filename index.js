@@ -1,13 +1,14 @@
-document.querySelector("#submit").addEventListener("click",primal());
-function primal(){
-    // e.preventDefault();
 
-    const username =document.getElementById("username").value;
-    const mobile=document.getElementById("mobile").value
-    const email=document.getElementById("email").value
-    const password=document.getElementById("password").value
-    const con_password=document.getElementById("conformpassword").value
 
+
+
+    let username =document.getElementById("username")
+    // let mobile=document.getElementById("mobile").value
+    // let email=document.getElementById("email").value
+    // let password=document.getElementById("password").value
+    const user=username.value
+    
+    
 
     const user_rgx=/^[a-zA-Z0-9]{4,10} $/;
     const mobile_rgx=/^[6-9]\d{9}$/
@@ -15,15 +16,3 @@ function primal(){
     const password_rgx=/^(?=.*[A-Z])(?=.*[\d])(?=.*[\W]).{8,}$/
 
 
-    if(!user_rgx.test(username)){
-        
-
-        document.getElementById("usererror").textContent="User name not valid !"
-    //    document.getElementById("usererror").style="Display: block"
-        alert("user name is not Valid")
-    }
-    else{
-        return true
-    }
-
-}

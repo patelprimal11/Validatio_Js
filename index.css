@@ -3,43 +3,27 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-div{
-    margin-left: 130px;
-    margin-top: 90px;
+.div1{
+    width: 650px;
+    background-color: white;
+    height: 450px;
 }
-#form1{
-    background-color: rgb(255, 255, 255);
-    /* background-color: transparent; */
-    border: 3px;
-    width: 500px;
-    border-style: 3px solid black;
-    height: 500px;
-    margin-top: 280px;
-    /* margin-left: 220px; */
-    /* opacity: 0.9; */
-    border-radius: 20px;
+h1{
+    text-align: center;
+}
+.icon{
+ padding-left: 210px;
+ /* padding-top: 90px; */
+}
+#submit{
     position: absolute;
-    left: 140px;
-    bottom: 160px;
-    
-}
-#usererror{
-    margin-left: 100px; 
-    /* display: none */
-}
-center{
-    padding-top: 90px;
-}
-h1{background-color: rgb(255, 255, 255,o.1);
-    /* opacity: 1; */
-text-align: center;
+    left: 210px;
+
 }
 .in{
-    height: 20px;
-    opacity: 0.5;
-    width: 200px;
-    border-radius: 18px;
-    box-shadow: 2px 2px black;
-
-
+    border: none;
+    border-bottom: 2px solid black; 
+}
+#img1{
+    position: fixed;
 }
