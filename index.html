@@ -9,7 +9,7 @@
 <body>
     <img id="img1" src="pp.jpg" height="400px"  width="150px">
     <div class="div1">
-    <form id="form1">
+    <form id="form1" onclick="return primal()">
         <h1>Register Form</h1>
 
         <div>
@@ -22,25 +22,25 @@
 
 <div>
         <label for="mobile"  class="icon"><img src="mobile.png" alt=""></label> &nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp; <input type="tel" autocomplete="off" placeholder="Enter Mobile No.                " class="in" name="mobile" id="mobile">
-        <small id="mobileerror"></small>
+        &nbsp;&nbsp;&nbsp;&nbsp; <input type="text" autocomplete="off" placeholder="Enter Mobile No.                " class="in" name="mobile" id="mobile">
+        <small class="error" id="mobileerror"></small>
     </div>
         <br><br>
 <div>
         <label for="email"  class="icon"><img src="mail.png" alt=""></label> &nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;  <input type="email" autocomplete="off" placeholder="Enter Gmail                       " class="in" name="email" id="email">
+        &nbsp;&nbsp;&nbsp;&nbsp;  <input type="text" autocomplete="off" placeholder="Enter Gmail                       " class="in" name="email" id="email">
         <small class="error" id="mailerror"></small>
     </div>
         <br><br>
         <div>
         <label for="password"  class="icon"><img src="key.png" alt=""></label> &nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;  <input type="password" autocomplete="off" class="in" name="password" placeholder="Enter Password                 " id="password">
+        &nbsp;&nbsp;&nbsp;&nbsp;  <input type="text" autocomplete="off" class="in" name="password" placeholder="Enter Password                 " id="password">
         <small class="error" id="passworderror"></small>
     </div>
         <br><br>
         <div>
         <label for="conformpassword"  class="icon"><img src="secure-password.png" alt=""></label> &nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;  <input type="password     " autocomplete="off" class="in" placeholder="Repeat Password              " name="conformpassword" id="conformpassword">
+        &nbsp;&nbsp;&nbsp;&nbsp;  <input type="text" autocomplete="off" class="in" placeholder="Repeat Password              " name="conformpassword" id="conformpassword">
         <small class="error" id="conformpassworderror"></small>
     </div>
         <br><br> 
@@ -55,6 +55,6 @@
     </form>
 </div>
     <script src="index.js"></script>
-    console.log(user)
+
 </body>
 </html>
